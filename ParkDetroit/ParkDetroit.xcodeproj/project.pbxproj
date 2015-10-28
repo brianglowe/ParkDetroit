@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45E950E7828664EA24D57C9F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B86713E11E45A2ED84A41101 /* libPods.a */; };
+		BA6A53D01BE143F200DC8100 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A53CF1BE143F200DC8100 /* DataModel.swift */; settings = {ASSET_TAGS = (); }; };
 		D35FBB041BDFB90600320337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35FBB031BDFB90600320337 /* AppDelegate.swift */; };
 		D35FBB061BDFB90600320337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35FBB051BDFB90600320337 /* ViewController.swift */; };
 		D35FBB091BDFB90600320337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35FBB071BDFB90600320337 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		1A423BEC61BD14B168D5DB03 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		401655D1FF659759C3114C6F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B86713E11E45A2ED84A41101 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6A53CF1BE143F200DC8100 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		D35FBB001BDFB90600320337 /* ParkDetroit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkDetroit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35FBB031BDFB90600320337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D35FBB051BDFB90600320337 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				D35FBB0A1BDFB90600320337 /* Assets.xcassets */,
 				D35FBB0C1BDFB90600320337 /* LaunchScreen.storyboard */,
 				D35FBB0F1BDFB90600320337 /* Info.plist */,
+				BA6A53CF1BE143F200DC8100 /* DataModel.swift */,
 			);
 			path = ParkDetroit;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				D35FBB061BDFB90600320337 /* ViewController.swift in Sources */,
 				D39662341BE154320082613C /* ParkingDetailViewController.swift in Sources */,
 				D35FBB041BDFB90600320337 /* AppDelegate.swift in Sources */,
+				BA6A53D01BE143F200DC8100 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
