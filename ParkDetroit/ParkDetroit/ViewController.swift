@@ -22,17 +22,25 @@ class ViewController: UIViewController {
         parkingInfo.text = "Hello again"
         
         
-        var camera = GMSCameraPosition.cameraWithLatitude(42.3358833,
-            longitude: -83.051934, zoom: 10)
+        var camera = GMSCameraPosition.cameraWithLatitude(42.335879,
+            longitude: -83.049745, zoom: 16)
         var mapView = GMSMapView.mapWithFrame(CGRectZero, camera: camera)
         mapView.myLocationEnabled = true
         self.view = mapView
         
-        var marker = GMSMarker()
-        marker.position = CLLocationCoordinate2DMake(42.3358833,-83.051934)
-        marker.title = "Detroit"
-        marker.snippet = "Michigan"
-        marker.map = mapView
+        var grandCircusMarker = GMSMarker()
+            grandCircusMarker.position = CLLocationCoordinate2D(latitude: 42.335879, longitude: -83.049745)
+            grandCircusMarker.title = "Grand Circus"
+            grandCircusMarker.icon = GMSMarker.markerImageWithColor(UIColor.blueColor())
+            grandCircusMarker.map = mapView
+        
+        for parkingLot in locationsArray {
+            var marker = GMSMarker()
+            marker.position = CLLocationCoordinate2DMake(parkingLot.location[0], parkingLot.location[1])
+            marker.title = parkingLot.name
+            marker.map = mapView
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {
