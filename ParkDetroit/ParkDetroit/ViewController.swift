@@ -11,9 +11,16 @@ import GoogleMaps
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var mapView: GMSMapView!
+    @IBOutlet weak var parkingInfo: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        parkingInfo.text = "Hello again"
+        
         
         var camera = GMSCameraPosition.cameraWithLatitude(42.3358833,
             longitude: -83.051934, zoom: 10)
