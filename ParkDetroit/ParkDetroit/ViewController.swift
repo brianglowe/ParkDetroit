@@ -58,6 +58,7 @@ class ViewController: UIViewController, GMSMapViewDelegate {
                 infoWindow.addressLabel.text = "1570 Woodward Ave, Detroit, MI 48226"
                 infoWindow.rateLabel.text = ""
                 infoWindow.phoneNumberLabel.text = "313-338-2780"
+                infoWindow.imageNib.image = UIImage(named: "Robb.jpg")
                 infoWindow.distanceLabel.text = ""
                 
                 
