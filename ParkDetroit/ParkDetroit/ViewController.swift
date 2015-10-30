@@ -54,7 +54,6 @@ class ViewController: UIViewController, GMSMapViewDelegate {
                 infoWindow.rateLabel.text = parklingLot.rate
                 infoWindow.phoneNumberLabel.text = parklingLot.phoneNumber
                 infoWindow.imageNib.image = parklingLot.image
-                infoWindow.distanceLabel.text = parklingLot.distance
            } else if marker.title == "Grand Circus Home" {
                 infoWindow.addressLabel.text = "1570 Woodward Ave, Detroit, MI 48226"
                 infoWindow.rateLabel.text = ""

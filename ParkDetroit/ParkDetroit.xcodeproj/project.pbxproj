@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		45E950E7828664EA24D57C9F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B86713E11E45A2ED84A41101 /* libPods.a */; };
-		BA6A53D01BE143F200DC8100 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A53CF1BE143F200DC8100 /* DataModel.swift */; };
-		BA6A544F1BE3A99F00DC8100 /* NibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A544D1BE3A99F00DC8100 /* NibViewController.swift */; };
-		BA6A54501BE3A99F00DC8100 /* NibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6A544E1BE3A99F00DC8100 /* NibViewController.xib */; };
-		BA6A54551BE3BEA700DC8100 /* grandCircusMarkerImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6A54541BE3BEA700DC8100 /* grandCircusMarkerImage.png */; };
+		BA6A53D01BE143F200DC8100 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A53CF1BE143F200DC8100 /* DataModel.swift */; settings = {ASSET_TAGS = (); }; };
+		BA6A544F1BE3A99F00DC8100 /* NibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A544D1BE3A99F00DC8100 /* NibViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BA6A54501BE3A99F00DC8100 /* NibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6A544E1BE3A99F00DC8100 /* NibViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		BA6A54551BE3BEA700DC8100 /* grandCircusMarkerImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6A54541BE3BEA700DC8100 /* grandCircusMarkerImage.png */; settings = {ASSET_TAGS = (); }; };
 		D35FBB041BDFB90600320337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35FBB031BDFB90600320337 /* AppDelegate.swift */; };
 		D35FBB061BDFB90600320337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35FBB051BDFB90600320337 /* ViewController.swift */; };
 		D35FBB091BDFB90600320337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35FBB071BDFB90600320337 /* Main.storyboard */; };
@@ -502,7 +502,6 @@
 			baseConfigurationReference = 1A423BEC61BD14B168D5DB03 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ParkDetroit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -516,7 +515,6 @@
 			baseConfigurationReference = 401655D1FF659759C3114C6F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ParkDetroit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
