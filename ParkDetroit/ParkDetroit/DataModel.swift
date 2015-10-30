@@ -45,7 +45,5 @@ var parkRiteLot3 = ParkingLotInfo(name: "Park Rite Lot 3", address: "1468 Randol
 var primeParkingLot = ParkingLotInfo(name: "Prime Parking Lot", address: "561 Gratiot Ave, Detroit, MI 48226", rate: "$10/d", location: [42.337842, -83.043413], description: "", phoneNumber: "n/a", image: UIImage(named: "561.png"), distance: "0.6 mi")
 var griswoldParkingDeck = ParkingLotInfo(name: "Griswold Parking Deck", address: "1411 Griswold, Detroit, MI 48226", rate: "$10/d, $100/mo", location: [42.334051, -83.050083], description: "", phoneNumber: "313-965-7292", image: UIImage(named: "1411.png"), distance: "0.3 mi")
 var primeParkingOnCass = ParkingLotInfo(name: "Prime Parking on Cass", address: "1370 Cass Ave, Detroit, MI 48226", rate: "$5/d, $60/mo", location: [42.332584, -83.053187], description: "", phoneNumber: "313-962-2220", image: UIImage(named: "1370.png"), distance: "0.4 mi")
-
-
 var locationsArray = [grandCircusParkingGarage, operaHouseParkingGarage, compuwareParkingGarage, flatLotAcrossFromGrandCircusPark, parkRiteLot1, parkRiteLot2, parkRiteLot3, primeParkingLot, griswoldParkingDeck, primeParkingOnCass]
 
